@@ -8,7 +8,8 @@ elice_utils = EliceUtils()
 """
 def normal(data):
     
-    data = (data - min(data)) / (max(data) - min(data))
+    #data = (data - min(data)) / (max(data) - min(data))
+    data = (data - data.min()) / (data.max() - data.min())
     
     return data
 
