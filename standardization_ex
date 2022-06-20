@@ -1,3 +1,15 @@
+#수치형 자료 변환하기 - 표준화
+#수치형 자료의 경우 다른 수치형 자료와 범위를 맞추기 위해 정규화 또는 표준화를 수행합니다.
+
+#이번 실습에서는 titanic 데이터에서 수치형 자료인 Fare 데이터를 표준화해보겠습니다.
+
+#표준화 공식
+#X−μσ\frac{X-\mu}{\sigma}	
+ 
+#지시사항
+#standard 함수를 완성하고 Fare 데이터를 표준화하여 Fare에 저장합니다.
+
+
 import pandas as pd
 from elice_utils import EliceUtils
 from numpy import *
